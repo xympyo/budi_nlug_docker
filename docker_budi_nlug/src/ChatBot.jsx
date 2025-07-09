@@ -70,7 +70,7 @@ const ChatBot = () => {
     <section
       ref={chatSectionRef}
       id="chatbot-section"
-      className="w-full flex flex-col items-center py-12 px-2 sm:px-0 bg-[#f3f4f6] min-h-[80vh]"
+      className="w-full flex flex-col items-center py-12 px-6 sm:px-0 bg-[#303030] min-h-[80vh]"
     >
       <div className="w-full max-w-lg bg-white rounded-2xl shadow-lg flex flex-col h-[70vh]">
         <div className="flex justify-between items-center px-6 py-4 border-b">
@@ -82,7 +82,7 @@ const ChatBot = () => {
             Clear Chat
           </button>
         </div>
-        <div className="flex-1 overflow-y-auto px-4 py-3 space-y-4 bg-[#f9fafb]">
+        <div className="flex-1 overflow-y-auto px-4 py-3 space-y-4 bg-[#fbfbfb]">
           {messages.length === 0 && !loading && (
             <div className="text-center text-gray-400 mt-10">
               Start a conversation with Budi!
